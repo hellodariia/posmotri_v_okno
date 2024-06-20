@@ -219,14 +219,13 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 30px;
   width: 399px;
   height: 298px;
   overflow: auto;
 }
 
-.content__list-item {
-  padding: 2px;
+.content__list-item:not(:last-child){
+  padding-bottom: 30px;
 }
 
 .content__video-card {
